@@ -25,7 +25,7 @@ git clone https://github.com/facebookresearch/xformers.git
 cd xformers
 git submodule update --init --recursive
 python -m venv venv
-./venv/scripts/activate
+.\venv\Scripts\activate
 ```
 
 4. To avoid issues with getting the CPU version, [install pyTorch seperately](https://pytorch.org/get-started/locally/):
@@ -72,7 +72,7 @@ python setup.py bdist_wheel
 10. In `stable-diffusion-webui` directory, install the `.whl`, change the name of the file in the command below if the name is different:
 
 ```sh
-./venv/scripts/activate
+.\venv\scripts\activate
 pip install xformers-0.0.14.dev0-cp310-cp310-win_amd64.whl
 ```
 
